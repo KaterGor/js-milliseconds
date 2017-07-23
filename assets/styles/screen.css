@@ -534,4 +534,9 @@ input[type=password]:focus {
   width: 100%;
 }
 
+/* line 39, sass/screen.scss */
+#bird {
+  position: absolute;
+}
+
 /*# sourceMappingURL=screen.css.map */
