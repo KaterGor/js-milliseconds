@@ -2,7 +2,7 @@ var toppos = 0;
 var direction = "down";
 
 function startAnimation() {
-	setInterval(animateBird, 50) // run code every 50 milliseconds
+	setInterval(animateBird, 16) // run code every 50 milliseconds
 }
 
 function animateBird() {
@@ -23,8 +23,6 @@ function animateUp() {
 }
 
 function animateDown() {
-		console.log("animateDown");
-
 	var bird = document.getElementById('bird');
 	toppos += 5;
 	bird.style.top = toppos + 'px';
